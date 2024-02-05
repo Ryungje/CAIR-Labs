@@ -1,0 +1,17 @@
+May 17, 2022
+
+Training with smaller learning rate, 0.0001 as opposed to 0.001 
+in previous attempts.
+
+Using Adam optimizer and no lr scheduler. 
+
+Update:
+Works much better, actually complelted training on all 150 epochs.
+The final training loss is also significantly lower than other 
+models. 
+    *note: before May 3, management of the models during training was poor 
+    and so the same model was used in preceding trainings. This likely
+    skewed results in favor of later models during the work sessions.*
+Still, the results seem promising and so additional training will be done with
+learning rate = 0.0002
+And then one with lr=0.0001 and learning rate scheduler, 
