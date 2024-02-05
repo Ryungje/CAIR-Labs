@@ -1,8 +1,0 @@
-April 30, 2022
-
-Trained the models on 100 epochs.
-This because the tensorboards continue to display a downwards trend
-for the testing evaluation.
-
-However, no validation and testing sets were created and the models were not recreated 
-between each pass.
